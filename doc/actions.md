@@ -102,7 +102,7 @@ returnStat : 'return' expr {System.out.println("first token "+$start.getText());
 
 ## Dynamically-Scoped Attributes
 
-You can pass information to and from rules using parameters and return values, just like functions in a general-purpose programming language. Programming languages don’t allow functions to access the local variables or parameters of invoking functions, however. For example, the following reference to local variable `x` form a nested method call is illegal in Java:
+You can pass information to and from rules using parameters and return values, just like functions in a general-purpose programming language. Programming languages don’t allow functions to access the local variables or parameters of invoking functions, however. For example, the following reference to local variable `x` from a nested method call is illegal in Java:
 
 ```java
 void f() {
